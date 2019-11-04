@@ -9,6 +9,16 @@ public class Pago {
 	Date fechaDeRealizacion;
 	
 	
+	public Pago() {
+		
+	}
+	
+	public Pago(int idPago, Float monto, Date fechaDeRealizacion) {
+		this.idPago = idPago;
+		this.monto = monto;
+		this.fechaDeRealizacion = fechaDeRealizacion;
+	}
+
 	public int getIdPago() {
 		return idPago;
 	}

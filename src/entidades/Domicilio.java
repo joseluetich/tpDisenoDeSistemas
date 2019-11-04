@@ -10,6 +10,20 @@ public class Domicilio {
 	int codigoPostal;
 	Localidad localidad;
 	
+	public Domicilio() {
+		
+	}
+	
+	public Domicilio(int idDomicilio, String calle, int numero, int piso, char departamento, int codigoPostal, Localidad localidad) {
+		this.idDomicilio = idDomicilio;
+		this.calle = calle;
+		this.numero = numero;
+		this.piso = piso;
+		this.departamento = departamento;
+		this.codigoPostal = codigoPostal;
+		this.localidad = localidad;
+	}
+
 	public int getIdDomicilio() {
 		return idDomicilio;
 	}

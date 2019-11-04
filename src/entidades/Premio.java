@@ -7,6 +7,17 @@ public class Premio {
 	Float derechoDeEmision;
 	Float totalPremio;
 	
+	public Premio() {
+		
+	}
+	
+	public Premio(int idPremio, Float prima, Float derechoDeEmision, Float totalPremio) {
+		this.idPremio = idPremio;
+		this.prima = prima;
+		this.derechoDeEmision = derechoDeEmision;
+		this.totalPremio = totalPremio;
+	}
+
 	public int getIdPremio() {
 		return idPremio;
 	}

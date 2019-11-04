@@ -29,6 +29,37 @@ public class Poliza {
 	ArrayList<Hijo> hijos = new ArrayList<>();
 	Localidad domicilioDeRiesgo;
 	
+	public Poliza() {
+		
+	}
+	
+	public Poliza(String numeroDePoliza, Date fechaInicioVigencia, Date fechaFinVigencia, Date fechaDeEmision,
+			String motorVehiculo, String chasisVehiculo, Float sumaAsegurada, String patente, int kilometrosPorAño,
+			FormaDePago formaDePago, int añoVehiculo, EstadoPoliza estado, Cliente cliente, Modelo modelo,
+			Premio premio, Descuentos descuentos, MedidasDeSeguridad medidasDeSeguridad, Cobertura cobertura,
+			ArrayList<Hijo> hijos, Localidad domicilioDeRiesgo) {
+		this.numeroDePoliza = numeroDePoliza;
+		this.fechaInicioVigencia = fechaInicioVigencia;
+		this.fechaFinVigencia = fechaFinVigencia;
+		this.fechaDeEmision = fechaDeEmision;
+		this.motorVehiculo = motorVehiculo;
+		this.chasisVehiculo = chasisVehiculo;
+		this.sumaAsegurada = sumaAsegurada;
+		this.patente = patente;
+		this.kilometrosPorAño = kilometrosPorAño;
+		this.formaDePago = formaDePago;
+		this.añoVehiculo = añoVehiculo;
+		this.estado = estado;
+		this.cliente = cliente;
+		this.modelo = modelo;
+		this.premio = premio;
+		this.descuentos = descuentos;
+		this.medidasDeSeguridad = medidasDeSeguridad;
+		this.cobertura = cobertura;
+		this.hijos = hijos;
+		this.domicilioDeRiesgo = domicilioDeRiesgo;
+	}
+
 	public String getNumeroDePoliza() {
 		return numeroDePoliza;
 	}

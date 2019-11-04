@@ -9,6 +9,19 @@ public class MedidasDeSeguridad {
 	boolean tuercasAntirobo;
 	
 	
+	public MedidasDeSeguridad() {
+		
+	}
+	
+	public MedidasDeSeguridad(int medidasDeSeguridad, boolean alarma, boolean seGuardaEnGarage, boolean rastreo,
+			boolean tuercasAntirobo) {
+		this.medidasDeSeguridad = medidasDeSeguridad;
+		this.alarma = alarma;
+		this.seGuardaEnGarage = seGuardaEnGarage;
+		this.rastreo = rastreo;
+		this.tuercasAntirobo = tuercasAntirobo;
+	}
+
 	public int getMedidasDeSeguridad() {
 		return medidasDeSeguridad;
 	}

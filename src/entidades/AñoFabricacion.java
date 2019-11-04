@@ -3,6 +3,14 @@ package entidades;
 public class AñoFabricacion {
 	
 	int año;
+	
+	public AñoFabricacion() {
+		
+	}
+
+	public AñoFabricacion(int año) {
+		this.año = año;
+	}
 
 	public int getAño() {
 		return año;

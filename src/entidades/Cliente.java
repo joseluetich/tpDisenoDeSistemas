@@ -26,6 +26,32 @@ public class Cliente {
 	EstadoCivil estadoCivil;
 	EstadoCliente estado;
 	Domicilio domicilio;
+	
+	public Cliente() {
+		
+	}
+
+	public Cliente(int idCliente, TipoDeDocumento tipoDeDocumento, String numeroDeDocumento, String apellido,
+			String nombre, NumeroDeSiniestros numeroSiniestrosUltimoAño, CondicionIVA condicionIVA, String profesion,
+			int añoDeRegistro, Sexo sexo, Date fechaDeNacimiento, String CUIL, String correoElectronico,
+			EstadoCivil estadoCivil, EstadoCliente estado, Domicilio domicilio) {
+		this.idCliente = idCliente;
+		this.tipoDeDocumento = tipoDeDocumento;
+		this.numeroDeDocumento = numeroDeDocumento;
+		this.apellido = apellido;
+		this.nombre = nombre;
+		this.numeroSiniestrosUltimoAño = numeroSiniestrosUltimoAño;
+		this.condicionIVA = condicionIVA;
+		this.profesion = profesion;
+		this.añoDeRegistro = añoDeRegistro;
+		this.sexo = sexo;
+		this.fechaDeNacimiento = fechaDeNacimiento;
+		this.CUIL = CUIL;
+		this.correoElectronico = correoElectronico;
+		this.estadoCivil = estadoCivil;
+		this.estado = estado;
+		this.domicilio = domicilio;
+	}
 
 	public int getIdCliente() {
 		return idCliente;

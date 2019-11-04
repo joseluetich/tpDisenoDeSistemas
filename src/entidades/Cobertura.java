@@ -6,7 +6,16 @@ public class Cobertura {
 	String nombre;
 	String descripcion;
 	
+	public Cobertura() {
+		
+	}
 	
+	public Cobertura(int idCobertura, String nombre, String descripcion) {
+		this.idCobertura = idCobertura;
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+	}
+
 	public int getIdCobertura() {
 		return idCobertura;
 	}

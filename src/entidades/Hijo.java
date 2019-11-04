@@ -12,7 +12,17 @@ public class Hijo {
 	EstadoCivil estadoCivil;
 	Sexo sexo;
 	
+	public Hijo() {
+		
+	}
 	
+	public Hijo(int idHijo, Date fechaDeNacimiento, EstadoCivil estadoCivil, Sexo sexo) {
+		this.idHijo = idHijo;
+		this.fechaDeNacimiento = fechaDeNacimiento;
+		this.estadoCivil = estadoCivil;
+		this.sexo = sexo;
+	}
+
 	public int getIdHijo() {
 		return idHijo;
 	}

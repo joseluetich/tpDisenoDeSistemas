@@ -7,6 +7,17 @@ public class Provincia {
 	Float porcentajeRobo;
 	Pais pais;
 	
+	public Provincia() {
+		
+	}
+	
+	public Provincia(int idProvincia, String nombre, Float porcentajeRobo, Pais pais) {
+		this.idProvincia = idProvincia;
+		this.nombre = nombre;
+		this.porcentajeRobo = porcentajeRobo;
+		this.pais = pais;
+	}
+
 	public int getIdProvincia() {
 		return idProvincia;
 	}

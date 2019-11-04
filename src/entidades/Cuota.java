@@ -11,7 +11,19 @@ public class Cuota {
 	Pago idPago;
 	Poliza poliza;
 	
+	public Cuota() {
+		
+	}
 	
+	public Cuota(int numeroCuota, Date fechaDeVencimiento, Float valorActual, Float valorOriginal, Pago idPago, Poliza poliza) {
+		this.numeroCuota = numeroCuota;
+		this.fechaDeVencimiento = fechaDeVencimiento;
+		this.valorActual = valorActual;
+		this.valorOriginal = valorOriginal;
+		this.idPago = idPago;
+		this.poliza = poliza;
+	}
+
 	public int getNumeroCuota() {
 		return numeroCuota;
 	}

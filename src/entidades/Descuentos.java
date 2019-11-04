@@ -6,7 +6,16 @@ public class Descuentos {
 	Float descuentoPorUnidad;
 	Float descuentoPorPagoSemestral;
 	
+	public Descuentos() {
+		
+	}
 	
+	public Descuentos(int idDescuentos, Float descuentoPorUnidad, Float descuentoPorPagoSemestral) {
+		this.idDescuentos = idDescuentos;
+		this.descuentoPorUnidad = descuentoPorUnidad;
+		this.descuentoPorPagoSemestral = descuentoPorPagoSemestral;
+	}
+
 	public int getIdDescuentos() {
 		return idDescuentos;
 	}

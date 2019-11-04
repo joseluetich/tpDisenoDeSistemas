@@ -7,6 +7,18 @@ public class Localidad {
 	Float porcentajeRobo;
 	Provincia provincia;
 	
+	
+	public Localidad() {
+		
+	}
+	
+	public Localidad(int idLocalidad, String nombre, Float porcentajeRobo, Provincia provincia) {
+		this.idLocalidad = idLocalidad;
+		this.nombre = nombre;
+		this.porcentajeRobo = porcentajeRobo;
+		this.provincia = provincia;
+	}
+
 	public int getIdLocalidad() {
 		return idLocalidad;
 	}

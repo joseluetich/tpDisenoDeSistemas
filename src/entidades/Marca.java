@@ -6,6 +6,16 @@ public class Marca {
 	String nombre;
 	Float porcentajeRobo;
 	
+	public Marca() {
+		
+	}
+	
+	public Marca(int idMarca, String nombre, Float porcentajeRobo) {
+		this.idMarca = idMarca;
+		this.nombre = nombre;
+		this.porcentajeRobo = porcentajeRobo;
+	}
+
 	public int getIdMarca() {
 		return idMarca;
 	}

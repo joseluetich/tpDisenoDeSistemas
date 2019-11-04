@@ -5,6 +5,15 @@ public class Pais {
 	int idPais;
 	String nombre;
 	
+	public Pais() {
+		
+	}
+	
+	public Pais(int idPais, String nombre) {
+		this.idPais = idPais;
+		this.nombre = nombre;
+	}
+
 	public int getIdPais() {
 		return idPais;
 	}

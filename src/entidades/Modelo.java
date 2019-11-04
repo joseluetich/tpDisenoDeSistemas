@@ -8,6 +8,19 @@ public class Modelo {
 	AñoFabricacion añoFabricacion;
 	Marca marca;
 	
+	
+	public Modelo() {
+		
+	}
+	
+	public Modelo(int idModelo, String nombre, Float porcentajeRobo, AñoFabricacion añoFabricacion, Marca marca) {
+		this.idModelo = idModelo;
+		this.nombre = nombre;
+		this.porcentajeRobo = porcentajeRobo;
+		this.añoFabricacion = añoFabricacion;
+		this.marca = marca;
+	}
+
 	public int getIdModelo() {
 		return idModelo;
 	}
